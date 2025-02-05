@@ -6,7 +6,6 @@
     <title>Assignment</title>
     <style>
         body{
-            /* padding: 15; */
             background-color: black;
         }
         .web_head{
@@ -21,21 +20,20 @@
             color: ghostwhite;
             background-color: rgb(0, 0, 0);
             justify-content: space-between   ;
-            text-align: center;
+            align-items: center;
             box-sizing: border-box;
-
+            height: 30pt;
         }
-        
         #navlinks{
             display: flex;     
             list-style: none; 
             color: white;
-            font-size: larger;
+            font-size: large;
             box-sizing: border-box;
+            margin: -40pt;
         }
         li{
-            margin: 0   100px;
-            width: fit-content;
+            margin: 0   30px;
         }
         #Home{
             display: flex;
@@ -93,32 +91,126 @@
             }               
             .web_head{
                 text-align: center;
-                width: 775px;
+                width: 1000px;
+            }
+            #navlinks{
+                margin: 70pt;
             }
             .aboutinfo{
-                width: 140pt;
+                width: 200pt;
             }
             .Binks_sake{
-                width: 300pt;
+                width: 415pt;
             }
             #Home{
                 margin-right: 168pt;
+                width: 967px;
+            }
+            #Devil_Fruit{
+                margin-right: 168pt;
+                width: 940px;
+            }
+            #YomiYomi{
+                width: 180pt;
+            }
+            .yomi_yomi_info{
+                font-size: large;
+                width: 450pt;
+            }
+            #end{
+                font-size: small;
+                width: 979px;
             }
         }
         @media screen and (max-width: 768px) {
             html {
-                font-size: 60%;
+                font-size: larger;
             }               
             .web_head{
                 text-align: center;
+                width: 1000px;
+            }
+            #navbar{
+                height: 45pt;
+            }
+            #navlinks{
+                margin: 10pt;
+                font-size: larger;
+            }
+            .aboutinfo{
+                width: 205pt;
+            }
+            .Binks_sake{
+                width: 415pt;
+            }
+            #Home{
+                margin-right: 168pt;
+                width: 967px;
+            }
+            #Devil_Fruit{
+                margin-right: 168pt;
+                width: 940px;
+            }
+            #YomiYomi{
+                width: 180pt;
+            }
+            .yomi_yomi_info{
+                font-size: larger;
+                width: 450pt;
+            }
+            #end{
+                font-size: large;
+                width: 979px;
             }
         }
         @media screen and (max-width: 320px) {
             html {
-                font-size: 50%;
+                font-size: 130%;
             }
             .web_head{
                 text-align: center;
+                font-size: 30pt;
+                padding: 25pt;
+                width: 930px;
+            }
+            #navbar{
+                height: 90pt;
+            }
+            li{
+                margin: 0   10px;
+                width: 120pt;
+                text-align: center;
+            }
+            #navlinks{
+                margin: -20pt;
+                font-size: 25pt;
+            }
+            .aboutinfo{
+                width: 160pt;
+                font-size: 25pt;
+            }
+            .Binks_sake{
+                width: 460pt;
+                font-size: 25pt;
+            }
+            #Home{
+                margin-right: 168pt;
+                width: 955px;
+            }
+            #Devil_Fruit{
+                margin-right: 168pt;
+                width: 940px;
+            }
+            #YomiYomi{
+                width: 180pt;
+            }
+            .yomi_yomi_info{
+                font-size: 25pt;
+                width: 450pt;
+            }
+            #end{
+                font-size: xx-large;
+                width: 979px;
             }
         }
     </style>
@@ -129,16 +221,14 @@
         <p>Welcome Everyone</p>
     </div>
 
-    <!-- <header> -->
-        <nav id="navbar">
-            <ul id="navlinks">
-                <li><a href="#Home">Home</a></li>
-                <li><a href="#aboutinfo">About</a></li>
-                <li><a href="#Binks_sake">Binks No Sake</a></li>
-                <li><a href="#Devil_Fruit">Yomi Yomi no Mi</a></li>
-            </ul>
-        </nav>
-    <!-- </header> -->
+    <nav id="navbar">
+        <ul id="navlinks">
+            <li id="links"><a href="#Home">Home</a></li>
+            <li id="links"><a href="https://onepiece.fandom.com/wiki/Brook">Brook</a></li>
+            <li id="links"><a href="#Binks_sake">Binks No Sake</a></li>
+            <li id="links"><a href="https://onepiece.fandom.com/wiki/Yomi_Yomi_no_Mi">Yomi Yomi no Mi</a></li>
+        </ul>
+    </nav>
 
     <section id="Home">
 
